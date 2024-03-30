@@ -3,3 +3,96 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    background-color: black;
+    height: calc(100vh - 93px);
+}
+footer{
+    background-color: #222222;
+    color: white;
+    
+}
+select{
+    border: none;
+    background-color: #222222;
+    rotate: 180deg;
+    color: white;
+}
+button{
+    background-color: #4A4A4A;
+    color: red;
+    border: none;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    font-size: 15px;
+}
+.icone i{
+    
+    font-size: 30px;
+}
+.icone a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+p{}
+/*CLASS*/
+.container90{
+    max-width: 95%;
+    margin: 0 auto;
+}
+.row{
+
+    display: flex;
+}
+.col20{
+    width: 20%;
+}
+.col70{
+    width: 70%;
+    
+}
+.col10{
+    width: 10%;
+}
+.icone{
+    padding: 20px 10px 20px 0;
+    display: inline-block;
+}
+.icone p{
+    margin-top: 8px;
+    font-size: 13px;
+}
+.col70 .icone{
+    margin-right: 20px;
+}
+.mid{
+    vertical-align: middle;
+}
+
+/*PADDING*/
+ .padding-left5{
+    padding-left: 5px;
+}
+ .padding-left25{
+    padding-left: 25%;
+}
+.col20 .padding-left{
+    padding-left: 3%;
+}
+.padding-left45{
+    padding-left: 45px;
+}
+.padding-left35{
+    padding-left: 35px;
+}
+
+/*COLOR*/
+/*MARGIN*/
+.margin-auto{
+    margin: 0 auto;
+}
