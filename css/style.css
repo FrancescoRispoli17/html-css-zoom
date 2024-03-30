@@ -39,9 +39,9 @@ button{
     color: white;
     text-decoration: none;
 }
-p{}
+
 /*CLASS*/
-.container90{
+.container95{
     max-width: 95%;
     margin: 0 auto;
 }
@@ -81,18 +81,9 @@ p{}
  .padding-left25{
     padding-left: 25%;
 }
-.col20 .padding-left{
+.padding-left{
     padding-left: 3%;
-}
-.padding-left45{
-    padding-left: 45px;
-}
-.padding-left35{
-    padding-left: 35px;
 }
 
 /*COLOR*/
 /*MARGIN*/
-.margin-auto{
-    margin: 0 auto;
-}
