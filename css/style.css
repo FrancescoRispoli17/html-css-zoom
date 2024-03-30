@@ -8,7 +8,7 @@ body{
 }
 main{
     background-color: black;
-    height: calc(100vh - 93px);
+    height: calc(100vh - 159px);
 }
 footer{
     background-color: #222222;
@@ -21,7 +21,7 @@ select{
     rotate: 180deg;
     color: white;
 }
-button{
+footer button{
     background-color: #4A4A4A;
     color: red;
     border: none;
@@ -29,25 +29,46 @@ button{
     width: 80%;
     align-items: center;
     font-size: 15px;
+    margin-left: 37px;
 }
-.icone i{
-    
-    font-size: 30px;
+header{
+    background-color: black;
+    padding: 10px 0 30px 0;
 }
-.icone a{
-    font-size: 30px;
+header button{
+    background-color: #363636;
     color: white;
-    text-decoration: none;
+    padding: 5px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
 }
-
+button i{
+    font-size: 50px;
+}
+main p{
+    display: inline;
+}
 /*CLASS*/
 .container95{
-    max-width: 95%;
+    max-width: 100%;
+    margin-left: 20px;
+}
+.container1800{
+    max-width: 1800px;
     margin: 0 auto;
+    height: 800px;
+    padding: 15px;
+    
 }
 .row{
 
     display: flex;
+}
+main .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .col20{
     width: 20%;
@@ -56,8 +77,25 @@ button{
     width: 70%;
     
 }
+.col90{
+    width: 90%;
+    
+}
 .col10{
     width: 10%;
+}
+.col14{
+    width: calc(100%/7 - 10px);
+    position: relative;
+    margin: 5px 0 5px 5px;
+}
+.col14 div{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding: 5px;
 }
 .icone{
     padding: 20px 10px 20px 0;
@@ -72,6 +110,14 @@ button{
 }
 .mid{
     vertical-align: middle;
+}
+.icone i{   
+    font-size: 30px;
+}
+.icone a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
 }
 
 /*PADDING*/
